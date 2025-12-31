@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="icon" type="image/png" href="Meril-logo.webp">
+<title>Happy New Year — Meril | Digital Experience Lab</title>
+<meta name="author" content="Ashutosh Pandey — Meril IT Department">
+<meta name="description" content="Celebrate the New Year with Meril's Digital Experience Lab. Wishing you and your loved ones joy, prosperity, and success this New Year. Designed by Ashutosh Pandey, Meril IT Department.">
+<!-- Link external CSS -->
+<link rel="stylesheet" href="style.css">
+<style>
+/* Additional styles for countdown and New Year effect */
+.countdown {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.happy-new-year {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffd700;
+  animation: sparkle 1s infinite alternate;
+}
+
+@keyframes sparkle {
+  0% { text-shadow: 0 0 5px #ffd700; }
+  100% { text-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700; }
+}
+
+.firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff6b6b;
+  border-radius: 50%;
+  animation: explode 2s infinite;
+}
+
+@keyframes explode {
+  0% { transform: scale(0); opacity: 1; }
+  50% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(2); opacity: 0; }
+}
+</style>
+</head>
+<body>
+  <!-- Full-page background logo div -->
+  <div class="background-logo"></div>
+
+  <div class="card">
+    <header>
+      <div class="brand">
+        <!-- label image -->
+        <img src="Sign 2.png" alt="Digital Experience Lab"/>
+      </div>
+      <div class="lab">Digital Experience Lab</div>
+    </header>
+
+    <main>
+      <div class="icons-row">
+        <!-- Firework icons (SVG) -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="animate-glow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="animate-glow svg1" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="animate-glow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="animation-delay: 1s;"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+      </div>
+
+      <h1 class="title">Happy New Year</h1>
+
+      <div class="subtitle">May this New Year bring joy, prosperity, and success to you and your loved ones</div>
+      <div class="desc">Wishing you a New Year filled with beautiful moments, cherished memories, and the warmth of festive celebrations.</div>
+
+      <!-- Countdown Section -->
+      <div class="countdown">
+        <h2>New Year Countdown</h2>
+        <div id="timer">Calculating...</div>
+      </div>
+
+      <!-- Updated signature row -->
+      <div class="signature-row">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
+        <div>
+          <p class="signature-text">From Team <span class="bold">Meril IT</span></p>
+          <p class="lab-text">Digital Experience Lab</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="animation-delay: 0.5s;"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
+      </div>
+
+      <div class="share-row">
+        <button class="btn" id="shareBtn">
+          <svg style="Color:#fff; width:1.2rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 w-5 h-5 mr-2" data-replit-metadata="client/src/pages/home.tsx:101:16" data-component-name="Share2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
+          Share This Greeting
+        </button>
+      </div>
+
+      <!-- 4 Cards Grid -->
+      <div class="card-grid">
+        <div class="mini" onclick="openModal('resolutions')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+          <p>Resolutions</p>
+        </div>
+        <div class="mini" onclick="openModal('cheers')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-glass"><path d="M6 21l1.5-1.5L9 21l1.5-1.5L12 21l1.5-1.5L15 21l1.5-1.5L18 21"></path><path d="M6 9v6a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9"></path><path d="M6 9V3h12v6"></path></svg>
+          <p>Cheers</p>
+        </div>
+        <div class="mini" onclick="openModal('goals')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          <p>Goals</p>
+        </div>
+        <div class="mini" onclick="openModal('celebration')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-party-popper"><path d="M5.8 11.3 2 22l10.7-3.79"></path><path d="M4 3h.01"></path><path d="M22 8h.01"></path><path d="M15 2h.01"></path><path d="M22 20h.01"></path><path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.88l-.92.3-2.9-.78a2.94 2.94 0 0 0-2.74.73l-2.09 2.38a2.94 2.94 0 0 0-.73 2.73l.78 2.91-.3.92a2.94 2.94 0 0 0 .73 2.73l2.38 2.09a2.94 2.94 0 0 0 2.73.73l2.91-.78.92.3a2.94 2.94 0 0 0 2.73-.73l2.09-2.38a2.94 2.94 0 0 0 .73-2.73l-.78-2.91.3-.92a2.94 2.94 0 0 0-.73-2.73L19.5 5.5a2.94 2.94 0 0 0-2.73-.73L13.85 5.5l-.3-.92a2.94 2.94 0 0 0-2.73-.73L8.54 5.55a2.94 2.94 0 0 0-1.96-3.12L4 2"></path></svg>
+          <p>Celebration</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2025 Meril IT • Celebrating New Year Together</footer>
+  </div>
+
+  <!-- Modals for each card -->
+  <div id="modal-resolutions" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Resolutions</h2>
+      <p>"The only way to make sense out of change is to plunge into it, move with it, and join the dance."</p>
+      <p class="author">- Alan Watts</p>
+    </div>
+  </div>
+
+  <div id="modal-cheers" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Cheers</h2>
+      <p>"Here's to the nights we'll never remember with the friends we'll never forget."</p>
+      <p class="author">- Unknown</p>
+    </div>
+  </div>
+
+  <div id="modal-goals" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Goals</h2>
+      <p>"The future belongs to those who believe in the beauty of their dreams."</p>
+      <p class="author">- Eleanor Roosevelt</p>
+    </div>
+  </div>
+
+  <div id="modal-celebration" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Celebration</h2>
+      <p>"Celebrate what you want to see more of."</p>
+      <p class="author">- Tom Peters</p>
+    </div>
+  </div>
+
+  <script>
+    // Countdown to New Year 2025
+    const newYear = new Date('January 1, 2025 00:00:00').getTime();
+    const timerElement = document.getElementById('timer');
+    const countdownContainer = document.querySelector('.countdown');
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = newYear - now;
+
+      if (distance <= 0) {
+        // New Year has arrived
+        countdownContainer.innerHTML = '<div class="happy-new-year">Happy New Year! ✨🎉</div>';
+        // Add some firework effects
+        for (let i = 0; i < 20; i++) {
+          const firework = document.createElement('div');
+          firework.className = 'firework';
+          firework.style.left = Math.random() * 100 + '%';
+          firework.style.top = Math.random() * 100 + '%';
+          firework.style.animationDelay = Math.random() * 2 + 's';
+          document.body.appendChild(firework);
+          setTimeout(() => firework.remove(), 2000);
+        }
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      timerElement.innerHTML = `${days.toString().padStart(2, '0')}:${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown(); // Initial call
+
+    // Existing modal functions (assuming from original script.js)
+    function openModal(modalType) {
+      const modal = document.getElementById('modal-' + modalType);
+      modal.style.display = 'block';
+    }
+
+    // Close modal when clicking the close button
+    document.querySelectorAll('.close').forEach(closeBtn => {
+      closeBtn.onclick = function() {
+        this.closest('.modal').style.display = 'none';
+      };
+    });
+
+        // Close modal when clicking the close button
+    document.querySelectorAll('.close').forEach(closeBtn => {
+      closeBtn.onclick = function() {
+        this.closest('.modal').style.display = 'none';
+      };
+    });
+
+    // Close modal when clicking outside the modal content
+    window.onclick = function(event) {
+      if (event.target.classList.contains('modal')) {
+        event.target.style.display = 'none';
+      }
+    };
+
+    // Share button functionality
+    document.getElementById('shareBtn').onclick = function() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Happy New Year from Meril IT',
+          text: 'Wishing you a prosperous New Year!',
+          url: window.location.href
+        });
+      } else {
+        // Fallback for browsers that don't support Web Share API
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+          alert('Link copied to clipboard: ' + url);
+        }).catch(() => {
+          alert('Share this link: ' + url);
+        });
+      }
+    };
+  </script>
+</body>
+</html>
