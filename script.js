@@ -3,7 +3,7 @@ const shareBtn = document.getElementById('shareBtn');
     shareBtn.addEventListener('click', async () => {
       const shareData = {
         title: document.title,
-        text: 'Happy Diwali from Meril — Digital Experience Lab',
+        text: 'Happy New Year from Meril — Digital Experience Lab',
         url: location.href
       };
       if (navigator.share) {
@@ -59,4 +59,5 @@ const shareBtn = document.getElementById('shareBtn');
     document.querySelectorAll('.mini').forEach((card, i) => {
       card.style.animationDelay = (i * 0.2) + 's';
       card.style.animation = 'enter 800ms cubic-bezier(.2,.9,.17,1) ' + (i * 0.2) + 's both';
+
     });
