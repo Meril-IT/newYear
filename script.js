@@ -61,3 +61,4 @@ const shareBtn = document.getElementById('shareBtn');
       card.style.animation = 'enter 800ms cubic-bezier(.2,.9,.17,1) ' + (i * 0.2) + 's both';
 
     });
+
